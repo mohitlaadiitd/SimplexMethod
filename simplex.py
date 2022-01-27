@@ -7,7 +7,6 @@ import sys
    The initial basic feasible solution is taken by setting variables x-1 to x-(n-m) as zero and 
    basic variables as last m variables. 
 
-   - TABLEAU METHOD -
    The code develops a Python Class *Simplex* that takes three neccessary arguments, (A, b, c) and
    has methods defined inside it. The class allows us to find the optimized value using the 
    Simplex.Optimizer() function.
